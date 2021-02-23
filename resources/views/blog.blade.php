@@ -38,7 +38,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
                         <div class="single-blog-post">
-                            <img src="assets/img/blog-one.jpg" alt="blog">
+                            <img src="{{asset('assets/img/blog-one.jpg')}}" alt="blog">
 
                             <div class="date">
                                 <span>18 Jan, 2019</span>
@@ -59,7 +59,7 @@
 
                     <div class="col-lg-6 col-md-6">
                         <div class="single-blog-post">
-                            <img src="assets/img/blog-two.jpg" alt="blog">
+                            <img src="{{asset('assets/img/blog-two.jpg')}}" alt="blog">
 
                             <div class="date">
                                 <span>18 Jan, 2019</span>
@@ -80,7 +80,7 @@
 
                     <div class="col-lg-6 col-md-6">
                         <div class="single-blog-post">
-                            <img src="assets/img/blog-three.jpg" alt="blog">
+                            <img src="{{asset('assets/img/blog-three.jpg')}}" alt="blog">
 
                             <div class="date">
                                 <span>18 Jan, 2019</span>
@@ -100,7 +100,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="single-blog-post">
-                            <img src="assets/img/blog-three.jpg" alt="blog">
+                            <img src="{{asset('assets/img/blog-three.jpg')}}" alt="blog">
 
                             <div class="date">
                                 <span>18 Jan, 2019</span>
@@ -161,7 +161,7 @@
 
                         <div class="single-recent-post">
                             <div class="img">
-                                <a href="#"><img src="assets/img/blog-one.jpg" alt="blog"></a>
+                                <a href="#"><img src="{{asset('assets/img/blog-one.jpg')}}" alt="blog"></a>
                             </div>
 
                             <div class="content">
@@ -173,7 +173,7 @@
 
                         <div class="single-recent-post">
                             <div class="img">
-                                <a href="#"><img src="assets/img/blog-two.jpg" alt="blog"></a>
+                                <a href="#"><img src="{{asset('assets/img/blog-two.jpg')}}" alt="blog"></a>
                             </div>
 
                             <div class="content">
@@ -185,7 +185,7 @@
 
                         <div class="single-recent-post mb-0">
                             <div class="img">
-                                <a href="#"><img src="assets/img/blog-three.jpg" alt="blog"></a>
+                                <a href="#"><img src="{{asset('assets/img/blog-three.jpg')}}" alt="blog"></a>
                             </div>
 
                             <div class="content">

@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Event;
 use App\Teacher;
 use Illuminate\Http\Request;
 use App\Course;
@@ -16,7 +16,8 @@ class PagesController extends Controller
     public function index()
     {
         $courses = Course::all();
-        return view ('welcome',compact('courses'));
+        $events = Event::all();
+        return view ('welcome',compact('courses','events'));
     }
     public function teacher()
     {

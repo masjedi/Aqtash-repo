@@ -1,39 +1,9 @@
-<div class=preloader-area>
-    <div class=loader>
-        <div class=dots>
-            <i class="dots-item dots-item-move-down"></i>
-            <i class="dots-item dots-item-move-left"></i>
-            <i class="dots-item dots-item-move-left"></i>
-            <i class="dots-item dots-item-move-left"></i>
-            <i class="dots-item dots-item-move-left"></i>
-            <i class="dots-item dots-item-move-down"></i>
-            <i class="dots-item dots-item-move-right"></i>
-            <i class="dots-item dots-item-move-right"></i>
-            <i class="dots-item dots-item-move-down"></i>
-            <i class="dots-item dots-item-move-up"></i>
-            <i class="dots-item dots-item-move-down"></i>
-            <i class="dots-item dots-item-move-up"></i>
-            <i class=dots-item></i>
-            <i class="dots-item dots-item-move-down"></i>
-            <i class="dots-item dots-item-move-up"></i>
-            <i class="dots-item dots-item-move-down"></i>
-            <i class="dots-item dots-item-move-up"></i>
-            <i class="dots-item dots-item-move-left"></i>
-            <i class="dots-item dots-item-move-left"></i>
-            <i class="dots-item dots-item-move-up"></i>
-            <i class="dots-item dots-item-move-right"></i>
-            <i class="dots-item dots-item-move-right"></i>
-            <i class="dots-item dots-item-move-right"></i>
-            <i class="dots-item dots-item-move-right"></i>
-            <i class="dots-item dots-item-move-up"></i>
-        </div>
-    </div>
-</div>
+
 <div class="main-header-area header-sticky" style="color: blue;">
     <div class=container>
         <div class="classy-nav-container breakpoint-off">
             <nav class="classy-navbar justify-content-between" id=EduStudyNav>
-                <a class=nav-brand href={{url('/')}}>
+                <a class=nav-brand href="{{url('/')}}">
                     <img src="{{asset('assets/img/logo.png')}}" alt=logo>
                 </a>
                 <div class=classy-navbar-toggler>

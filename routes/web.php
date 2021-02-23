@@ -29,6 +29,7 @@ function() {
     Route::get('/courses','PagesController@course');
     Route::get('/blog','PagesController@blog');
     Route::get('/contact','PagesController@contact');
+    Route::get('/teacher','PagesController@teacher');
     Route::get('/course_detail/{id}', 'PagesController@courseDetail');
     Route::get('/alsa/home', 'HomeController@index')->name('home');
     

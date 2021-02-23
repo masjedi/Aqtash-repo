@@ -53,15 +53,15 @@
             <div class="col-lg-6 col-md-12">
                 <div class="about-slider">
                     <div class="item">
-                        <img src="assets/img/about-img1.jpg" alt="about">
+                        <img src="{{asset('assets/img/about-img1.jpg')}}" alt="about">
                     </div>
 
                     <div class="item">
-                        <img src="assets/img/about-img2.jpg" alt="about">
+                        <img src="{{asset('assets/img/about-img2.jpg')}}" alt="about">
                     </div>
 
                     <div class="item">
-                        <img src="assets/img/about-img3.jpg" alt="about">
+                        <img src="{{asset('assets/img/about-img3.jpg')}}" alt="about">
                     </div>
                 </div>
             </div>

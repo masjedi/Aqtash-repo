@@ -76,20 +76,20 @@
         </div>
         <div class=row>
             @foreach($courses as  $course)
-            <div class="col-lg-4 col-md-6">
-                <div class=single-courses-item>
-                    <div class=courses-img>
-                        <img src="{{asset('images/course')}}/{{$course->course_photo}}" style="height: 230px;" alt=course>
-                    </div>
-                    <div class=courses-content>
-                        <h3><a href="#">{{$course->course_title}}</a></h3>
-                    </div>
-                    <div class=courses-content-bottom>
-                        <h4><i class=icofont-ui-user style="color: #e60c3d;"></i> 120 Students</h4>
-                        <h4 class=price><span>$140</span> {{$course->course_price}}</h4>
+                <div class="col-lg-4 col-md-6">
+                    <div class=single-courses-item>
+                        <div class=courses-img>
+                            <img src="{{asset('images/course')}}/{{$course->course_photo}}" style="height: 230px;" alt=course>
+                        </div>
+                        <div class=courses-content>
+                            <h3><a href="#">{{$course->course_title}}</a></h3>
+                        </div>
+                        <div class=courses-content-bottom>
+                            <h4><i class=icofont-ui-user style="color: #e60c3d;"></i> 120 Students</h4>
+                            <h4 class=price><span>$140</span> {{$course->course_price}}</h4>
+                        </div>
                     </div>
                 </div>
-            </div>
             @endforeach
             <div class="col-lg-12 col-md-12">
                 <div class="view-all text-center">
@@ -181,50 +181,26 @@
 <section class="news-area ptb-100">
     <div class=container>
         <div class=section-title>
-            <h3>Theinfinitex News</h3>
+            <h3>HASK's Evnets</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
         </div>
         <div class=row>
             <div class=news-slider>
+        @foreach($events as $event)
                 <div class="col-lg-12 col-md-12">
                     <div class=single-blog>
                         <div class=blog-img>
-                            <a href="#"><img src="assets/img/blog-one.jpg" alt=blog></a>
+                            <a href="#"><img src="{{asset('image/events')}}/ {{$event->feature_image}}" alt=blog></a>
                         </div>
                         <div class=blog-content>
                             <h4><span><i class=icofont-ui-user></i> Posted by <a href="#">Admin</a></span>
                                 <span class=date><i class=icofont-ui-calendar></i> 18 Jan, 2019</span></h4>
-                            <h3><a href="#">Those Other College Expenses You Aren't Thinking About</a></h3>
+                            <h3><a href="#">{{$event-name}}</a></h3>
                             <a href="#" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12">
-                    <div class=single-blog>
-                        <div class=blog-img>
-                            <a href="#"><img src="assets/img/blog-two.jpg" alt=blog></a>
-                        </div>
-                        <div class=blog-content>
-                            <h4><span><i class=icofont-ui-user></i> Posted by <a href="#">Admin</a></span>
-                                <span class=date><i class=icofont-ui-calendar></i> 18 Jan, 2019</span></h4>
-                            <h3><a href="#">Excepteur sint occaecat cupidatat non proident quaerat voluptatem.</a></h3>
-                            <a href="#" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12">
-                    <div class=single-blog>
-                        <div class=blog-img>
-                            <a href="#"><img src="assets/img/blog-three.jpg" alt=blog></a>
-                        </div>
-                        <div class=blog-content>
-                            <h4><span><i class=icofont-ui-user></i> Posted by <a href="#">Admin</a></span>
-                                <span class=date><i class=icofont-ui-calendar></i> 18 Jan, 2019</span></h4>
-                            <h3><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h3>
-                            <a href="#" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
+            @endforeach
             </div>
         </div>
     </div>
@@ -233,5 +209,4 @@
 
 @include('layout.scripts')
 </body>
-<!-- Mirrored from envytheme.com/templates/edufield/edufield/index-default.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Aug 2020 05:45:19 GMT -->
 </html>
